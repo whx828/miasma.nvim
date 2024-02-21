@@ -16,7 +16,7 @@ let g:colors_name="miasma"
 
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ColorColumn guifg=NONE guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi Comment guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi Comment guifg=#E6A666 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Constant guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi CursorColumn guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Cursor guifg=#222222 guibg=#685742 guisp=NONE blend=NONE gui=NONE
@@ -38,7 +38,7 @@ hi DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=under
 hi DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-hi DiagnosticUnnecessary guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnnecessary guifg=#969696 guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticVirtualTextError guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticVirtualTextHint guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi DiagnosticVirtualTextInfo guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
@@ -58,7 +58,7 @@ hi Error guifg=#c2c2b0 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi ErrorMsg guifg=#b36d43 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi FloatShadow guifg=NONE guibg=#101010 guisp=NONE blend=NONE gui=NONE
 hi FloatShadowThrough guifg=NONE guibg=#151515 guisp=NONE blend=NONE gui=NONE
-hi FoldColumn guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi FoldColumn guifg=#969696 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Folded guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Function guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi gitCommitBranch guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -84,7 +84,7 @@ hi IblIndent guifg=#242d1d guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi IblScope guifg=#43492a guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi IblWhitespace guifg=#242d1d guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi Identifier guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi Ignore guifg=#444444 guibg=NONE guisp=NONE blend=NONE gui=underline
+hi Ignore guifg=#999999 guibg=NONE guisp=NONE blend=NONE gui=underline
 hi IncSearch guifg=#222222 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi Keyword guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyButtonActive guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
@@ -120,7 +120,7 @@ hi LazyUrl guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyValue guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi lCursor guifg=bg guibg=fg guisp=NONE blend=NONE gui=NONE
 hi lessVariable guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi LineNr guifg=#969696 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi! link @boolean Boolean
 hi! link Character Constant
 hi! link @comment Comment
@@ -308,16 +308,16 @@ hi mustachePartial guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi mustacheSection guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 hi mustacheVariable guifg=#c9a554 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi mustacheVariableUnescape guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi netrwClassify guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
+hi netrwClassify guifg=#969696 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi netrwExe guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
+hi NonText guifg=#969696 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi phpIdentifier guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi phpSpecialFunction guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Pmenu guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi PmenuSbar guifg=NONE guibg=#666666 guisp=NONE blend=NONE gui=NONE
+hi PmenuSbar guifg=NONE guibg=#969696 guisp=NONE blend=NONE gui=NONE
 hi PmenuSel guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
 hi PmenuThumb guifg=#d7c483 guibg=#d7c483 guisp=NONE blend=NONE gui=NONE
 hi Question guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
@@ -348,7 +348,7 @@ hi ScrollbarWarn guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ScrollbarWarnHandle guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
 hi Search guifg=#222222 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
 hi shDerefSimple guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi SignColumn guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi SignColumn guifg=#969696 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Special guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SpecialKey guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SpellBad guifg=#685742 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
@@ -357,12 +357,12 @@ hi SpellLocal guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellRare guifg=#b36d43 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi Statement guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
 hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
-hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
-hi String guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi StatusLineNC guifg=#969696 guibg=#222222 guisp=NONE blend=NONE gui=bold
+hi String guifg=#B85742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticErrorSign guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticWarningSign guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TabLineFill guifg=#c9a554 guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi TabLine guifg=#666666 guibg=#111111 guisp=NONE blend=NONE gui=NONE
+hi TabLine guifg=#969696 guibg=#111111 guisp=NONE blend=NONE gui=NONE
 hi TabLineSel guifg=#111111 guibg=#78834b guisp=NONE blend=NONE gui=bold
 hi TabLineSelSep guifg=#78834b guibg=#1c1c1c guisp=NONE blend=NONE gui=bold
 hi TabLineSep guifg=#111111 guibg=#222222 guisp=NONE blend=NONE gui=NONE
@@ -414,14 +414,14 @@ hi Todo guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
 hi Type guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Underlined guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=underline
 hi User1 guifg=#d7c483 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
-hi User2 guifg=#d7c483 guibg=#666666 guisp=NONE blend=NONE gui=NONE
+hi User2 guifg=#d7c483 guibg=#969696 guisp=NONE blend=NONE gui=NONE
 hi User3 guifg=#d7c483 guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi User4 guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi User5 guifg=#d7c483 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi User6 guifg=#d7c483 guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
 hi User7 guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi User8 guifg=#d7c483 guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
-hi User9 guifg=#d7c483 guibg=#666666 guisp=NONE blend=NONE gui=NONE
+hi User9 guifg=#d7c483 guibg=#969696 guisp=NONE blend=NONE gui=NONE
 hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Visual guifg=#222222 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi WarningMsg guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
